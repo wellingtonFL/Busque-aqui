@@ -1,0 +1,47 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul { list-style: none; padding-left: 5px; }
+a { color:blue; text-decoration: none;}
+.bar {
+    background-color: #f9f9fb;
+    padding:15px;
+    border-top: solid 1px #cdcdcd;
+    border-bottom: solid 1px #cdcdcd;
+}
+.content {
+    max-width: 1440px;
+    margin: auto;
+    grid-gap: 3rem;
+    display: grid;
+    gap: 3rem;
+    grid-template-areas: "sidebar main anchors";
+    grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.footer {
+    min-height: 100px;
+    border-top: solid 1px #cdcdcd;
+}
+.anchors {
+    border-left: solid 1px #cdcdcd;
+    padding-left: 15px;
+}
+.sidebar {
+    border-right: solid 1px #cdcdcd;
+}
+figure {
+    text-align: center;
+}
+.floatLeft{float:left};
+
+.blocoIcones{float: left;width: 30%; height: 40px; margin: 500px;  border: 1px solid #ccc; border-radius: 5px;}
+    .blocoIcones input [type='text'] {float:left; width: 80%; height: 100%; border: none; background: transparent; padding: 0 10px ;}
+    .blocoIcones button{float: left; width: 37%; height: 100%; border: none;background: #ccc;}
+    .blocoIcones{text-align: center;}
+    .blocoIcones{ height: 50%;}
+
+    .footerleft{margin: 10px; padding: 100%;}
